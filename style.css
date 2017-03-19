@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-align: center;
+	font: normal 15px Georgia, "Arial", Times, serif;
+	color: #222;
+}
+
+#header {
+	width: 100%;
+	height: 120px;
+}
+
+h1 a{padding:20px; color:#333; text-decoration: none;}
+
+#content {
+	width: 700px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	padding: 0;
+	text-align: left;
+}
+
+fieldset {
+	margin-top: 25px;
+	padding: 15px;
+	border: 1px solid #d1d1d1;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+fieldset legend {
+	font: normal 25px Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing: -1px;
+	color: #273953;
+}
+
+input, textarea {
+	padding: 5px;
+}
+
+label {
+	cursor: pointer;
+}
+
+.block {
+	display: block;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+small {
+	letter-spacing: 1px;
+	font-size: 14px;
+	font-style: italic;
+	color: #9e9e9e;
+}
+
+.info {
+	text-align: left;
+	padding: 5px;
+	font: normal 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #fff;
+	position: absolute;
+	display: none;
+}
+
+.error {
+	background: #f60000;
+	border: 3px solid #d50000;
+
+}
+
+.correct {
+	background: #56d800;
+	border: 3px solid #008000;
+}
+
+.wrong {
+	font-weight: bold;
+	color: #e90000;
+}
+.bord{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background: #999;
+    color: #fff;
+}
+.normal {
+	font-weight: normal;
+	color: #222;
+}
+input{
+    border-radius: 15px;
+    border: solid 2px #444;
+}
+input:focus{
+    outline: none;
+}
+#send {
+	background: #999;
+	width: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+	border: none;
+	font: bold 25px Verdana, sans-serif;
+	color: #fafafa;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#send:hover {
+	background: #555;
+	color: #fff;
+}
